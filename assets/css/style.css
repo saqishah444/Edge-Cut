@@ -482,10 +482,11 @@ margin: 0 auto;
 }
 
 .contactus-left {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    padding: 20px;
+
+}
+.contactus-right {
+ padding: 20px;
 
 }
 
