@@ -3,6 +3,7 @@
 :root{
     --primary-color: #6bb7be;
     --secondary-color: #f89646;
+    --background-color:  #fafafa;
 }
 a, span {
     display: inline-block;
@@ -11,6 +12,9 @@ a, span {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.row{
+    margin: 0 !important;
 }
 
 body {
@@ -37,6 +41,9 @@ header{
     padding: 15px 0px;
     width: 90%;
     margin: 0 auto;
+}
+.nav-item:hover .nav-link{
+    color: #f89646 !important;
 }
 
 .heading-blue {
@@ -73,11 +80,11 @@ a {
     padding: 30px;
 }
 
-#first-section {
+#home {
     display: flex;
     justify-content: space-between;
     padding: 50px 30px;
-        background-color: #f5f5f5;
+        background-color: var(--background-color);
        
         margin: 0 auto;
 
@@ -137,9 +144,7 @@ a {
     transition: all 0.5s ease;
 }
 
-.btn-right {
-    margin-left: 5px;
-}
+
 
 .btn-orange:hover {
     color: var(--secondary-color);
@@ -157,16 +162,10 @@ a {
     margin-top: 10px;
 }
 #furniture{
-            width: 1300px;
-            margin: 0 auto;
+         margin-top: 70px;    
 }
 
-.our-furniture {
-    font-size: 35px;
-    margin-left: 25px;
-    margin-top: 70px;
 
-}
 
 .our-furniture-para {
     margin-left: 25px;
@@ -183,7 +182,7 @@ a {
 
 .card1 {
     padding: 20px;
-    background-color: #f1f1f1;
+     background-color: var(--background-color);
 }
 
 
@@ -203,7 +202,7 @@ a {
 
 .card2 {
     padding: 20px;
-    background-color: #f1f1f1;
+     background-color: var(--background-color);
 }
 
 .card2 h3 {
@@ -211,13 +210,13 @@ a {
 }
 
 .card-img2 {
-    padding: 50px 50px 30px 50px;
+    padding: 50px 50px 35px 50px;
     width: 100%;
 }
 
 .card3 {
     padding: 20px;
-    background-color: #f1f1f1;
+     background-color: var(--background-color);
 }
 
 .card3 h3 {
@@ -225,7 +224,7 @@ a {
 }
 
 .card-img3 {
-    padding: 50px 50px 30px 50px;
+    padding: 50px 50px 2px 50px;
     width: 100%;
 }
 
@@ -241,7 +240,7 @@ a {
 }
 
 .card-img4 {
-    padding: 70px 50px 90px 50px;
+    padding: 60px 50px 72px 50px;
     width: 100%;
 }
 
@@ -251,7 +250,7 @@ a {
 }
 
 .card-img6 {
-    padding: 50px 50px 40px 50px;
+    padding: 24px 50px 7px 50px;
     width: 100%;
 }
 .card1, .card2, .card3, .card4, .card5, .card6 {
@@ -277,14 +276,8 @@ a {
 }
 
 #aboutus {
-    display: flex;
-    justify-content: space-between;
     margin-top: 100px;
-    padding: 20px;
-    padding-bottom: 80px;
-        background-color: #f1f1f1;
-                width: 1300px;
-margin: 0 auto;
+        background-color: var(--background-color);
 
 }
 
@@ -294,6 +287,7 @@ margin: 0 auto;
 }
 .aboutus-img{
     width: 100%;
+    padding: 40px;
 }
 
 .aboutus-section-right {
@@ -317,7 +311,7 @@ margin: 0 auto;
 }
 #latest-blog{
     margin-bottom: 15px;
-            width: 1300px;
+           
 margin: 0 auto;
 }
 .latest-blog-heading {
@@ -327,18 +321,9 @@ margin: 0 auto;
     text-align: center;
 }
 
-.latest-blog-container {
-    margin: 0 20px;
 
-}
 
-.maindiv {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    width: 500px;
-    margin: 0 auto;
-}
+
 
 .child1-info {
     padding: 18px;
@@ -409,12 +394,7 @@ margin: 0 auto;
     box-shadow: 0px 0px 10px 0px #00000063;
 }
 
-.testimonial-box {
-    width: 60%;
-    margin: 0 auto;
-    box-shadow: 0px 0px 10px 0px #00000063;
-    padding: 20px;
-}
+
 
 .testimonial-heading {
     margin: 50px auto;
@@ -428,6 +408,8 @@ margin: 0 auto;
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    box-shadow: 0px 0px 10px 0px #00000063;
+    padding: 20px;
 }
 
 .testimonial-left-img {
@@ -485,14 +467,12 @@ margin: 0 auto;
 }
 
 #contactus {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    gap: 30px;
-    padding-bottom: 80px;
-        background-color: #f1f1f1;
-                width: 1300px;
-margin: 50px auto 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 50px 0 0 0;
+  
+         background-color: var(--background-color);
+
 
 }
 
@@ -519,12 +499,7 @@ margin: 50px auto 0;
 
 }
 
-.message {
-    height: 90px;
-    border: none;
-    padding: 10px 5px 10px 10px;
-    font-size: 17px;
-}
+
 
 .username:active {
     border: none;
@@ -535,79 +510,10 @@ margin: 50px auto 0;
 }
 
 
-/* Login btn Css */
-.main {
-    margin: 100px auto;
-    background-color: white;
-    border-radius: 10px;
-    width: 370px;
-
-
-}
-
-.seconddiv {
-    padding: 30px 0px;
-}
-
-.login-heading {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 20px;
-    text-align: center;
-}
-
-.email {
-    margin: 20px 20px 5px 20px;
-    padding: 15px;
-    border-radius: 5px;
-    border: 1px solid rgb(133, 130, 130);
-    width: 300px;
-}
-
-.password {
-    margin: 5px 20px;
-    padding: 15px;
-    border-radius: 5px;
-    border: 1px solid rgb(133, 130, 130);
-    width: 300px;
-}
-
-.showpass {
-    margin-left: 20px;
-}
-
-.forget {
-    margin-left: 60px;
-    text-decoration: none;
-    color: rgb(101, 101, 238);
-}
-
-.login-btn {
-    width: 300px;
-    background-color: var(--primary-color);
-    border: none;
-    border-radius: 5px;
-    padding: 12px;
-    margin: 20px 20px 5px 20px;
-    color: aliceblue;
-    font-size: 20px;
-    transition: all 0.5s ease;
-}
-
-.login-btn:hover {
-    color: var(--primary-color);
-    background-color: white;
-    border: 1px solid var(--primary-color);
-}
-
-
 .last {
     margin-left: 30px;
     margin-top: 30px;
     text-align: center;
-}
-#footer{
-    max-width: 1300px;
-    margin: 0 auto;
 }
 
 .footer-main {
@@ -617,8 +523,6 @@ margin: 50px auto 0;
 }
 
 .footer-top {
-    display: flex;
-    justify-content: space-around;
     color: white;
     padding-top: 50px;
 }
@@ -635,13 +539,12 @@ margin: 50px auto 0;
     color: var(--secondary-color);
 }
 #footer{
-        background-color: black;
+  background-color: black;
 
 }
 
 .footer-bottom {
-    display: flex;
-    justify-content: space-between;
+    
     padding: 30px;
     margin-top: 50px;
 }
@@ -706,7 +609,11 @@ margin: 50px auto 0;
 }
 
 .news-letter-btn {
-    padding: 10px;
+    width: 50px;
+    height: 50px;
+   text-align: center;
+   padding-top: 5px;
+    
     font-size: 25px;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
@@ -741,3 +648,4 @@ margin: 50px auto 0;
     margin: 1px 25%;
     padding: 30px 0;
 }
+

@@ -14,24 +14,38 @@
 
 <body>
     <header>
-        
-        <nav class="navbar">
-            <div class="logo heading"><a href="#">
-                <h2>e<span class="heading-red">dg</span>ecut</h2>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <h2>e<span class="text-danger">dge</span>cut</h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0 gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Furniture</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
 
-                </a></div>
-            <div>
-                <ul class="links">
-                    <li> <a href="./index.html">Home</a></li>
-                    <li> <a href="./about.html">About</a></li>
-                    <li> <a href="./furniture.html">Furniture</a></li>
-                    <li> <a href="./blog.html">Blog</a></li>
-                    <li> <a href="./contactus.html">Contact Us</a></li>
-                </ul>
+                    </ul>
+
+                </div>
             </div>
-
         </nav>
-        <section id="first-section">
+        <section id="home">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -45,8 +59,18 @@
                                 maxime <br />
                                 voluptatem a itaque suscipit.
                             </p>
-                            <div class="buttons"><a href="" class="btn btn-orange"> Contact Us</a>
-                                <a href="" class="btn btn-blue btn-right"> About Us</a>
+                            <div class="d-flex gap-2">
+
+                                <div>
+                                    <a href="" class="btn btn-orange"> Contact Us</a>
+                                </div>
+
+
+                                <div>
+                                    <a href="" class="btn btn-blue"> About Us</a>
+
+                                </div>
+
                             </div>
                         </div>
 
@@ -61,81 +85,89 @@
             </div>
         </section>
     </header>
-    <section class="furniture">
-        <div class="container-white">
-            <h2 class="heading our-furniture">Our Furniture</h2>
-            <p class="our-furniture-para">which don't look even slightly believable. If you are going to use a passage
-                of Lorem Ipsum, you need to be
-                sure there isn't an</p>
-            <div class="cards1">
-                <div class="card1">
+    <section id="furniture">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
                     <div>
-                        <img src="./assets/images/card1.png" alt="" srcset="" class="card-img1">
-                        <h3 class="heading">Brown chair design</h3>
-                        <div class="card-price">
-                            <p><span class="color-blue">$</span> 100.00</p>
-                            <p><a href="#" class="color-blue">Buy Now</a></p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="card2">
-                    <div>
-                        <img src="./assets/images/card2.png" alt="" srcset="" class="card-img2">
-                        <h3 class="heading">Double bed design</h3>
-                        <div class="card-price">
-                            <p><span class="color-blue">$</span> 100.00</p>
-                            <p><a href="#" class="color-blue">Buy Now</a></p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="card3">
-                    <div>
-                        <img src="./assets/images/card3.png" alt="" srcset="" class="card-img3">
-                        <h3 class="heading">house chair design</h3>
-                        <div class="card-price">
-                            <p><span class="color-blue">$</span> 100.00</p>
-                            <p><a href="#" class="color-blue">Buy Now</a></p>
-                        </div>
-
+                        <h2 class="heading ms-4">Our Furniture</h2>
+                        <p class="our-furniture-para">which don't look even slightly believable. If you are going to use
+                            a passage
+                            of Lorem Ipsum, you need to be
+                            sure there isn't an</p>
                     </div>
                 </div>
 
             </div>
+            <div class="cards1">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card1 mt-2 mt-md-0">
+                            <img src="./assets/images/card1.png" alt="" srcset="" class="card-img1">
+                            <h4 class="heading">Brown chair design</h4>
+                            <div class="card-price">
+                                <p><span class="color-blue">$</span> 100.00</p>
+                                <p><a href="#" class="color-blue">Buy Now</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card2 mt-2 mt-md-0">
+                            <img src="./assets/images/card2.png" alt="" srcset="" class="card-img2">
+                            <h4 class="heading">Brown chair design</h4>
+                            <div class="card-price">
+                                <p><span class="color-blue">$</span> 100.00</p>
+                                <p><a href="#" class="color-blue">Buy Now</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card3 mt-2 mt-md-0">
+                            <img src="./assets/images/card3.png" alt="" srcset="" class="card-img3">
+                            <h4 class="heading">Brown chair design</h4>
+                            <div class="card-price">
+                                <p><span class="color-blue">$</span> 100.00</p>
+                                <p><a href="#" class="color-blue">Buy Now</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
             <div class="cards2">
-                <div class="card1">
-                    <div>
-                        <img src="./assets/images/card4.png" alt="" srcset="" class="card-img4">
-                        <h3 class="heading">Brown chair design</h3>
-                        <div class="card-price">
-                            <p><span class="color-blue">$</span> 100.00</p>
-                            <p><a href="#" class="color-blue">Buy Now</a></p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card1 mt-2 mt-md-0">
+                            <img src="./assets/images/card4.png" alt="" srcset="" class="card-img4">
+                            <h4 class="heading">Brown chair design</h4>
+                            <div class="card-price">
+                                <p><span class="color-blue">$</span> 100.00</p>
+                                <p><a href="#" class="color-blue">Buy Now</a></p>
+                            </div>
                         </div>
-
                     </div>
-                </div>
-                <div class="card2">
-                    <div>
-                        <img src="./assets/images/card5.png" alt="" srcset="" class="card-img5">
-                        <h3 class="heading">Double bed design</h3>
-                        <div class="card-price">
-                            <p><span class="color-blue">$</span> 100.00</p>
-                            <p><a href="#" class="color-blue">Buy Now</a></p>
+                    <div class="col-md-4">
+                        <div class="card2 mt-2 mt-md-0">
+                            <img src="./assets/images/card5.png" alt="" srcset="" class="card-img5">
+                            <h4 class="heading">Brown chair design</h4>
+                            <div class="card-price">
+                                <p><span class="color-blue">$</span> 100.00</p>
+                                <p><a href="#" class="color-blue">Buy Now</a></p>
+                            </div>
                         </div>
-
                     </div>
-                </div>
-                <div class="card3">
-                    <div>
-                        <img src="./assets/images/card6.png" alt="" srcset="" class="card-img6">
-                        <h3 class="heading">house chair design</h3>
-                        <div class="card-price">
-                            <p><span class="color-blue">$</span> 100.00</p>
-                            <p><a href="#" class="color-blue">Buy Now</a></p>
+                    <div class="col-md-4">
+                        <div class="card3 mt-2 mt-md-0">
+                            <img src="./assets/images/card6.png" alt="" srcset="" class="card-img6">
+                            <h4 class="heading">Brown chair design</h4>
+                            <div class="card-price">
+                                <p><span class="color-blue">$</span> 100.00</p>
+                                <p><a href="#" class="color-blue">Buy Now</a></p>
+                            </div>
                         </div>
-
                     </div>
+
                 </div>
 
             </div>
@@ -145,62 +177,87 @@
     </section>
     <section id="aboutus">
         <div class="container-dark display-flex">
-            <div class="aboutus-section-left"> <img src="./assets/images/about-us.png" alt="" srcset=""
-                    class="aboutus-img">
-            </div>
-            <div class="aboutus-section-right">
-                <div>
-                    <h2 class="heading aboutus-section-heading "> About us</h2>
-                    <p class="aboutus-section-right-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Minus quidem maiores perspiciatis,dolor sit amet consectetur dolor sit amet consectetur dolor
-                        sit
-                        amet consectetur
-                        illo
-                        maxime
-                        voluptatem a itaque suscipit.</p>
-                    <div class="buttons">
-                        <a href="" class="btn btn-blue btn-right"> About Us</a>
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <div class="aboutus-section-left"> <img src="./assets/images/about-us.png" alt="" srcset=""
+                                class="aboutus-img">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <div class="aboutus-section-right">
+                            <div>
+                                <h2 class="heading aboutus-section-heading "> About us</h2>
+                                <p class="aboutus-section-right-para">Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Minus quidem maiores perspiciatis,dolor sit amet consectetur dolor sit amet
+                                    consectetur dolor
+                                    sit
+                                    amet consectetur
+                                    illo
+                                    maxime
+                                    voluptatem a itaque suscipit.</p>
+                                <div class="buttons">
+                                    <a href="" class="btn btn-blue btn-right"> About Us</a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
 
 
+
+
     </section>
     </div>
     <section id="latest-blog">
-        <div class="container-white">
+        <div class="container">
             <div class="latest-blog-heading">
                 <h2 class="heading ">Latest blog</h2>
             </div>
             <div class="latest-blog-container">
-                <div class="maindiv">
-                    <div class="child1">
-                        <div class="child1-img"><img src="./assets/images/latest-blog1.jpg" alt="" srcset=""></div>
-                        <div class="child1-info">
-                            <h3 class="child1-heading">Look even slightly believable. If you are</h3>
-                            <p class="child1-para">alteration in some form, by injected humour, or randomised words
-                                which don't look even slightly believable.</p>
-                            <div class="btn-readmore"> <a href="#" class="btn btn-blue ">Read More</a></div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="child1">
+                            <div><img src="./assets/images/latest-blog1.jpg" class="img-fluid" alt="" srcset=""></div>
+                            <div class="child1-info">
+                                <h3 class="child1-heading">Look even slightly believable. If you are</h3>
+                                <p class="child1-para">alteration in some form, by injected humour, or randomised words
+                                    which don't look even slightly believable.</p>
+                                <div class="btn-readmore"> <a href="#" class="btn btn-blue ">Read More</a></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="child2">
-                        <div class="child2-img"><img src="./assets/images/latest-blog2.jpg" alt="" srcset=""></div>
-                        <div class="child2-info">
-                            <h3 class="child2-heading">Anything embarrassing hidden in the middle</h3>
-                            <p class="child2-para">alteration in some form, by injected humour, or randomised words
-                                which don't look even slightly believable.</p>
-                            <div class="btn-readmore"> <a href="#" class="btn btn-blue ">Read More</a></div>
+                    <div class="col-md-4">
+                        <div class="child2">
+                            <div><img src="./assets/images/latest-blog2.jpg" class="img-fluid" alt="" srcset=""></div>
+                            <div class="child2-info">
+                                <h3 class="child2-heading">Anything embarrassing hidden in the middle</h3>
+                                <p class="child2-para">alteration in some form, by injected humour, or randomised words
+                                    which don't look even slightly believable.</p>
+                                <div class="btn-readmore"> <a href="#" class="btn btn-blue ">Read More</a></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="child3">
-                        <div class="child3-img"><img src="./assets/images/latest-blog3.jpg" alt="" srcset=""></div>
-                        <div class="child3-info">
-                            <h3 class="child3-heading">Look even slightly believable. If you are</h3>
-                            <p class="child3-para">alteration in some form, by injected humour, or randomised words
-                                which don't look even slightly believable.</p>
-                            <div class="btn-readmore"> <a href="#" class="btn btn-blue ">Read More</a></div>
+                    <div class="col-md-4">
+                        <div class="child3">
+                            <div><img src="./assets/images/latest-blog3.jpg" class="img-fluid" alt="" srcset=""></div>
+                            <div class="child3-info">
+                                <h3 class="child3-heading">Look even slightly believable. If you are</h3>
+                                <p class="child3-para">alteration in some form, by injected humour, or randomised words
+                                    which don't look even slightly believable.</p>
+                                <div class="btn-readmore"> <a href="#" class="btn btn-blue ">Read More</a></div>
+                            </div>
                         </div>
                     </div>
+
+
+
                 </div>
             </div>
         </div>
@@ -210,18 +267,22 @@
         <div class="testimonial-heading">
             <h2 class="heading"> testimonial</h2>
         </div>
-        <div class="testimonial-box">
-            <div class="box-maindiv">
-                <div class="testimonial-left"><img src="./assets/images/testimonial.jpg" alt="" srcset=""
-                        class="testimonial-left-img"></div>
-                <div class="testimonial-right">
-                    <p><i class="ri-double-quotes-l double-sign"></i></p>
-                    <h2 class="testimonial-right-heading">Siaalya</h2>
-                    <p class="testimonial-right-para">It is a long established fact that a reader will be distracted by
-                        the readable cIt is a long
-                        established fact that a reader will be distracted by the readable c</p>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="box-maindiv rounded-2">
+                    <div class="testimonial-left"><img src="./assets/images/testimonial.jpg" alt="" srcset=""
+                            class="testimonial-left-img"></div>
+                    <div class="testimonial-right">
+                        <p><i class="ri-double-quotes-l double-sign"></i></p>
+                        <h2 class="testimonial-right-heading">Siaalya</h2>
+                        <p class="">It is a long established fact that a reader will be distracted by
+                            the readable cIt is a long
+                            established fact that a reader will be distracted by the readable c</p>
+                    </div>
                 </div>
+
             </div>
+
         </div>
         <div class="arrows">
             <div class="arrows-btn"><a href="" class="btn-color"><i class="ri-arrow-left-line"></i></a></div>
@@ -229,40 +290,61 @@
         </div>
     </section>
     <section id="contactus">
-        <div class="container-dark display-flex">
-            <div class="contactus-left">
-                <h2 class="heading contactus-heading">Contact us</h2>
-                <input type="text" name="" id="" class="username" placeholder="Your Name">
-                <input type="tel" name="" id="" class="username" placeholder="Phone Number" pattern="{0-9}{11}">
-                <input type="text" name="" id="" class="username" placeholder="Email">
-                <input type="text" name="" id="" class="message" placeholder="Message">
-                <div class="btn-readmore"> <a href="#" class="btn btn-blue">Send</a></div>
-            </div>
-            <div class="contactus-right"><iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14162774.849685036!2d58.34275039780263!3d29.9302872525847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38db52d2f8fd751f%3A0x46b7a1f7e614925c!2sPakistan!5e0!3m2!1sen!2s!4v1748711908261!5m2!1sen!2s"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
-        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contactus-left">
+                        <h2 class="heading contactus-heading">Contact us</h2>
+                        <input type="text" name="" id="" class="username form-control" placeholder="Your Name">
+                        <input type="tel" name="" id="" class="username form-control" placeholder="Phone Number"
+                            pattern="{0-9}{11}">
+                        <input type="text" name="" id="" class="username form-control" placeholder="Email">
+                        <textarea name="" id="" class="form-control" rows="4" placeholder="Message"></textarea>
+                        <div class="btn-readmore"> <a href="#" class="btn btn-blue">Send</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <div class="contactus-right"><iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14162774.849685036!2d58.34275039780263!3d29.9302872525847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38db52d2f8fd751f%3A0x46b7a1f7e614925c!2sPakistan!5e0!3m2!1sen!2s!4v1748711908261!5m2!1sen!2s"
+                                width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
+                    </div>
+                </div>
     </section>
     <section id="footer">
         <div class="footer-main">
             <div class="footer-top">
-                <div class="phone"><a href="" class="phone">
-                        <h2><i class="ri-phone-fill"></i></h2>
-                        <p>Call: 0312-3456789</p>
-                    </a></div>
-                <div class="phone"><a href="" class="phone">
-                        <h2><i class="ri-mail-fill"></i></h2>
-                        <p>Email: edgecut@gmail.com</p>
-                    </a></div>
-                <div class="phone"><a href="" class="phone">
-                        <h2><i class="ri-map-pin-2-fill"></i></h2>
-                        <p>Location</p>
-                    </a></div>
+                <div class="row  px-5 text-center">
+                    <div class="col-md-4">
+                        <div class="phone"><a href="" class="phone">
+                                <h2><i class="ri-phone-fill"></i></h2>
+                                <p>Call: 0312-3456789</p>
+                            </a></div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="phone"><a href="" class="phone">
+                                <h2><i class="ri-mail-fill"></i></h2>
+                                <p>Email: edgecut@gmail.com</p>
+                            </a></div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="phone"><a href="" class="phone">
+                                <h2><i class="ri-map-pin-2-fill"></i></h2>
+                                <p>Location</p>
+                            </a></div>
+                    </div>
+
+                </div>
+
+
+
             </div>
             <div class="footer-bottom">
-                <div class="quick-links">
-                    <h2 class="heading">Quick Links</h2>
+                <div class="row justify-content-between">
+                    <div class="col-md-4">
+                        <div class="quick-links">
+                    <h4 class="heading">Quick Links</h4>
                     <div class="quick-links-flex">
                         <div class="quick-links-flex1"> <a href="./index.html" class="quick-links-para phone">
                                 <p> Home</p>
@@ -284,9 +366,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="instagram-feed">
-                    <h2 class="heading">instagram feed</h2>
-                    <div class="instagram-feed-flex1">
+                    </div>
+                    <div class="col-md-4">
+                        <div class="instagram-feed">
+                    <h4 class="heading text-center">instagram feed</h4>
+                    <div class="instagram-feed-flex1 ms-0">
                         <div class="instagram-feed-div"><img src="./assets/images/card1.png" alt="" srcset=""
                                 class="instagram-feed-img"></div>
                         <div class="instagram-feed-div"><img src="./assets/images/card2.png" alt="" srcset=""
@@ -303,8 +387,10 @@
                                 class="instagram-feed-img"></div>
                     </div>
                 </div>
-                <div class="news-letter">
-                    <h2 class="heading">Sign up to our NewsLetter</h2>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="news-letter">
+                    <h4 class="heading">Sign up to our NewsLetter</h4>
                     <input type="email" placeholder="Enter Your Email" class="input-email">
                     <div class="btn-readmore"> <a href="#" class="btn btn-black ">Subscribe</a></div>
                     <div class="news-letter-btns">
@@ -315,6 +401,11 @@
                     </div>
 
                 </div>
+                    </div>
+                </div>
+                
+                
+                
             </div>
         </div>
     </section>
