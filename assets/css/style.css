@@ -491,7 +491,7 @@ margin: 0 auto;
 
 }
 
-.username {
+/* .username {
     width: 500px;
     height: 50px;
     border: none;
@@ -499,17 +499,11 @@ margin: 0 auto;
     font-size: 17px;
 
 
-}
+} */
 
 
 
-.username:active {
-    border: none;
-}
 
-.message:active {
-    border: none;
-}
 
 
 .last {
