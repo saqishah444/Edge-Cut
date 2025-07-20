@@ -348,6 +348,7 @@ margin: 0 auto;
 }
 .child1:hover{
     transform: scale(1.04);
+    box-shadow: 0px 0px 10px 10px #b6b3b363;
 }
 .child2-info {
     padding: 18px;
@@ -367,6 +368,7 @@ margin: 0 auto;
 }
 .child2:hover{
     transform: scale(1.04);
+    box-shadow: 0px 0px 10px 10px #b6b3b363;
 }
 
 .child3-info {
@@ -387,12 +389,14 @@ margin: 0 auto;
 }
 .child3:hover{
     transform: scale(1.04);
+    box-shadow: 0px 0px 10px 10px #b6b3b363;
 }
 
 .child1,
 .child2,
 .child3 {
-    box-shadow: 0px 0px 10px 0px #00000063;
+    box-shadow: 0px 0px 10px 0px #acabab63;
+  
 }
 
 
